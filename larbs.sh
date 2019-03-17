@@ -14,8 +14,8 @@ while getopts ":a:r:p:h" o; do case "${o}" in
 esac done
 
 # DEFAULTS:
-[ -z "$dotfilesrepo" ] && dotfilesrepo="https://github.com/lukesmithxyz/voidrice.git"
-[ -z "$progsfile" ] && progsfile="https://raw.githubusercontent.com/LukeSmithxyz/LARBS/master/progs.csv"
+[ -z "$dotfilesrepo" ] && dotfilesrepo="https://github.com/denisalevi/voidrice.git"
+[ -z "$progsfile" ] && progsfile="https://raw.githubusercontent.com/denisalevi/LARBS/master/progs.csv"
 [ -z "$aurhelper" ] && aurhelper="yay"
 
 ### FUNCTIONS ###

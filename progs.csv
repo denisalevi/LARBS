@@ -68,6 +68,25 @@ A,task-spooler,"queues commands or files for download."
 A,simple-mtpfs,"enables the mounting of cell phones."
 G,https://github.com/lukesmithxyz/dmenu.git,"runs commands and provides a UI for selection."
 G,https://github.com/lukesmithxyz/st.git,"is my custom build of suckless's terminal emulator."
+# stuff for optional LARBS functionality
+,qrencode,"QR code generation"
+# lukes mutt-wizard
+,neomutt,"mail stuff"
+,offlineimap,"mail stuff"
+,msmtp,"mail stuff"
+# then install from https://github.com/lukesmithxyz/mutt-wizard
 # personal additions
-gparted, "GUI for partitioning"
-A,rambox-bin, "workspace browser for many chat and mail applications"
+,bash-completion,"extended bash completion, e.g. for systemctl commands"
+,gparted,"GUI for partitioning"
+A,rambox-bin,"workspace browser for many chat and mail applications"
+,ack,"search content of files"
+A,s-tui,"monitor and stress CPU usage and power consumption"
+,reflector,"script to update pacman mirrors"
+,mlocate,"locate command to locate files on system"
+# t480s specific
+A,throttled,"solve linux CPU throteeling issues"
+# for nvidia-xrun
+,nvidia,"proprietary NVIDIA drivers"
+,bbswitch,"switch dGPU on/off on Optimus laptops"
+# or nvidia-xrun (last updated 2016?)
+A,nvidia-xrun-git,"scripts to run dedicated X server on NVIDIA GPU"
